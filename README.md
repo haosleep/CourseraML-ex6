@@ -1,2 +1,29 @@
 # CourseraML-ex6
-吳恩達機器學習課程-第七週編程作業
+### 吳恩達機器學習課程-第七週編程作業<br>
+程式碼內加上中文註解和自己的學習筆記<br>
+<br>
+dataset3Params.m------------C和sigma各8種參數組合下進行SVM訓練找出最佳的參數組合<br>
+emailFeatures.m--------------將processEmail.m處理完的編號向量轉換為特徵向量<br>
+emailSample1.txt-------------測試用一般信件<br>
+emailSample2.txt-------------測試用一般信件<br>
+ex6.m-------------------------作業內容(使用SVM找二分資料的決策邊界)<br>
+ex6_spam.m------------------作業內容(使用SVM辨識垃圾郵件)<br>
+ex6data1.mat-----------------訓練資料(ex6.m用)<br>
+ex6data2.mat-----------------訓練資料(ex6.m用)<br>
+ex6data3.mat-----------------訓練資料(ex6.m用)<br>
+gaussianKernel.m------------高斯核函數<br>
+getVocabList.m--------------讀取vocab.txt詞彙內容<br>
+linearKernel.m---------------線性核函數<br>
+plotData.m-------------------二分類資料二維圖繪製<br>
+porterStemmer.m------------對文件內容進行詞性轉換相關處理<br>
+processEmail.m--------------對文件內容進行處理，比對常用詞彙表後將文字轉為對應編號向量<br>
+readFile.m--------------------讀取檔案內容轉為字元向量<br>
+spamSample1.txt-------------測試用垃圾信件<br>
+spamSample2.txt-------------測試用垃圾信件<br>
+spamTest.mat----------------測試資料(ex6_spam.m用)<br>
+spamTrain.mat---------------訓練資料(ex6_spam.m用)<br>
+svmPredict.m----------------使用SVM訓練完後的模型進行預測<br>
+svmTrain.m-------------------SVM機器學習函數<br>
+visualizeBoundary.m---------在二維圖上繪製決策邊界<br>
+visualizeBoundaryLinear.m---在二維圖上繪製決策邊界(線性)<br>
+vocab.txt----------------------常用詞彙表
